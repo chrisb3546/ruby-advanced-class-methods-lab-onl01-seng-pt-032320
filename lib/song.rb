@@ -47,7 +47,7 @@ end
     songarray
   end 
   
-  def self.new_from_filename(name, artist_name)
+  def self.new_from_filename(name)
     binding.pry
     songthree = Song.new
     songthree(artist_name, name)
