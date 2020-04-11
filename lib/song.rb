@@ -48,6 +48,7 @@ end
   end 
   
   def self.new_from_filename(name, artist_name)
+    binding.pry
     songthree = Song.new
     songthree(artist_name, name)
    
