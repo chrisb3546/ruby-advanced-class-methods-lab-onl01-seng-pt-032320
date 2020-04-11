@@ -48,10 +48,11 @@ end
   end 
   
   def self.new_from_filename(name)
-    artist_name= name.split(" - ")[0]
+    artist= name.split(" - ")[0]
     song_name= name.split(" - ")[1].gsub(".mp3", "")
     song = Song.new
     song.name= song_name
+    song.artist_name= artist
     song
     #songthree = Song.new
     #songthree(artist_name, name)
