@@ -48,10 +48,8 @@ end
   end 
   
   def self.new_from_filename(name, artist_name)
-    songthree = Song.new
-    songthree.artist_name = artist_name
-    songthree.name = name
-    songthree(artist_name, name)
+    songthree = Song.new(name, artist_name)
+   
     end 
   
   
