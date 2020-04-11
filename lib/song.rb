@@ -52,6 +52,7 @@ end
     song_name= name.split(" - ")[1].gsub(".mp3", "")
     song = Song.new
     song.name= song_name
+    song
     #songthree = Song.new
     #songthree(artist_name, name)
    
