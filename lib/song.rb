@@ -56,11 +56,11 @@ end
     song
     #songthree = Song.new
     #songthree(artist_name, name)
-   
-    end 
+   end 
   
   
-  
+  def self.create_from_filename
+  end
   
   def self.all
     @@all
